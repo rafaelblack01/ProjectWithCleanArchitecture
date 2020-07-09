@@ -1,10 +1,10 @@
 {
-  "name": "cleanArchitectureCourse",
+  "name": "cleanarchitecturecourse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
