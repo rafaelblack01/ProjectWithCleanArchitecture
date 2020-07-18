@@ -5,6 +5,7 @@ import { EmailValidator } from '../signup/signup-protocols'
 
 export default class LoginController implements Controller {
   private readonly emailValidator: EmailValidator
+
   constructor (emailValidator: EmailValidator) {
     this.emailValidator = emailValidator
   }
